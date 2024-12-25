@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SESSION_NAME="LazyVim"
-WORK_DIR="/home/hid3ki/Documentos/dev/"
+WORK_DIR="SEUDIRETORIO"
 
 tmux new-session -d -s $SESSION_NAME -c $WORK_DIR
 
